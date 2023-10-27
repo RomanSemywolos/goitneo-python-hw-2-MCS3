@@ -71,7 +71,7 @@ def get_all(contacts):
 def main():
     contacts = {}
     print("Welcome to the assistant bot!"
-          "\nI accept the following commands: \n add username phone \n change username phone \n phone username \n all"
+          #"\nI accept the following commands: \n hello \n add username phone \n change username phone \n phone username \n all \n 'close' or 'exit'"
           )
     while True:
         user_input = input("Enter a command: ")
